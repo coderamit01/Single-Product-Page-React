@@ -105,28 +105,28 @@ p {
   cursor: pointer;
   transition: all .3s ease-in-out;
 }
-.vr-colors .one {
+.vr-colors .purple {
   background-color: var(--blueberry);
 }
-.vr-colors input:checked + .one {
+.vr-colors input:checked + .purple {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--blueberry);
 }
-.vr-colors .two {
+.vr-colors .cyan {
   background-color: var(--turquoise);
 }
-.vr-colors input:checked + .two {
+.vr-colors input:checked + .cyan {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--turquoise);
 }
-.vr-colors .three {
+.vr-colors .blue {
   background-color: var(--blue);
 }
-.vr-colors input:checked + .three {
+.vr-colors input:checked + .blue {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--blue);
 }
-.vr-colors .four {
+.vr-colors .black {
   background-color: var(--dark-gray);
 }
-.vr-colors input:checked + .four {
+.vr-colors input:checked + .black {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--dark-gray);
 }
 
