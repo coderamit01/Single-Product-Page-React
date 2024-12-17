@@ -1,0 +1,64 @@
+{
+  "product": [
+    {
+    "id": 1,
+    "name": "classNamey Modern Smart Watch",
+    "img": "../../src/assets/images/blue.png",
+    "reviews": {
+      "rating": 3.5,
+      "totalReviews": 2
+    },
+    "pricing": {
+      "originalPrice": 99.00,
+      "currentPrice": 79.00
+    },
+    "description": "I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teaching.",
+    "specifications": {
+      "type": "Watch",
+      "modelNumber": "Forerunner 290XT"
+    },
+    "options": {
+      "bandColor": [
+        {
+          "color": "blue",
+          "image": "../../src/assets/images/blue.png"
+        },
+        {
+          "color": "cyan",
+          "image": "../../src/assets/images/cyan.png"
+        },
+        {
+          "color": "purple",
+          "image": "../../src/assets/images/purple.png"
+        },
+        {
+          "color": "black",
+          "image": "../../src/assets/images/black.png"
+        }
+      ],
+      "wristSize": [
+        {
+          "size": "S",
+          "price": 69.00
+        },
+        {
+          "size": "M",
+          "price": 79.00
+        },
+        {
+          "size": "L",
+          "price": 89.00
+        },
+        {
+          "size": "XL",
+          "price": 99.00
+        }
+      ]
+    },
+    "cart": {
+      "quantity": 1,
+      "addToCartText": "Add To Cart"
+    }
+  }
+  ]
+}
