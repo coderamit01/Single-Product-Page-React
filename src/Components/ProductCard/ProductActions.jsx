@@ -1,5 +1,5 @@
 import { FaRegHeart } from "react-icons/fa6";
-import ProductQuantity from "../ProductQuantity/ProductQuantity";
+import ProductQuantity from "./ProductQuantity";
 
 const ProductActions = ({qty,handleQtyChange,addToCart}) => {
   return (

@@ -1,6 +1,7 @@
 import StarFilled from "../Shared/StarFilled";
 import HalfStar from "../Shared/HalfStar";
 import Star from "../Shared/Star";
+import ReviewStar from "./ReviewStar";
 
 const ProductDetails = ({ product }) => {
   const { name, reviews, pricing, description, specifications } = product;
@@ -10,11 +11,7 @@ const ProductDetails = ({ product }) => {
         <h2 className="product-title">{name}</h2>
         <div className="d-flex align-items-center gap-2">
           <div className="starts d-flex align-items-center gap-1">
-            <StarFilled />
-            <StarFilled />
-            <StarFilled />
-            <HalfStar />
-            <Star />
+            <ReviewStar star={reviews?.rating || 0} />
           </div>
           <span className="review-text text-small">({reviews.totalReviews} Reviews)</span>
         </div>
