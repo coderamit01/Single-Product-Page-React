@@ -3,7 +3,7 @@
     {
     "id": 1,
     "name": "ClassNamey Modern Smart Watch",
-    "img": "../../src/assets/images/blue.png",
+    "img": "img/blue.png",
     "reviews": {
       "rating": 3.5,
       "totalReviews": 2
@@ -21,19 +21,19 @@
       "bandColor": [
         {
           "color": "blue",
-          "image": "../../src/assets/images/blue.png"
+          "image": "img/blue.png"
         },
         {
           "color": "cyan",
-          "image": "../../src/assets/images/cyan.png"
+          "image": "img/cyan.png"
         },
         {
           "color": "purple",
-          "image": "../../src/assets/images/purple.png"
+          "image": "img/purple.png"
         },
         {
           "color": "black",
-          "image": "../../src/assets/images/black.png"
+          "image": "img/black.png"
         }
       ],
       "wristSize": [
