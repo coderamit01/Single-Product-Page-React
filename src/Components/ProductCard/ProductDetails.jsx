@@ -3,7 +3,7 @@ import HalfStar from "../Shared/HalfStar";
 import Star from "../Shared/Star";
 
 const ProductDetails = ({ product }) => {
-  const { name, img, reviews, pricing, description, specifications } = product;
+  const { name, reviews, pricing, description, specifications } = product;
   return (
     <>
       <div>

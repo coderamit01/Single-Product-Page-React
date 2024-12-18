@@ -20,8 +20,7 @@ const ProductQuantity = ({ qty, onQtyChange }) => {
     <div className="d-flex align-items-center product-count">
       <span
         className="d-flex align-items-center justify-content-center lh-1 minus"
-        onClick={handleMinus}
-      >
+        onClick={handleMinus}>
         <FaMinus />
       </span>
       <span className="d-flex align-items-center justify-content-center lh-1 qty">
@@ -29,8 +28,7 @@ const ProductQuantity = ({ qty, onQtyChange }) => {
       </span>
       <span
         className="d-flex align-items-center justify-content-center lh-1 plus"
-        onClick={handlePlus}
-      >
+        onClick={handlePlus}>
         <FaPlus />
       </span>
     </div>
