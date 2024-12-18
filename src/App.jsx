@@ -15,7 +15,18 @@ const App = () => {
   }, []);
 
   const addToCart = (product) => {
-    setCart([...cart, product]);
+    const existsProductIdx = cart.findIndex(item => 
+      item.name === product.name &&
+      item.color === product.color &&
+      item.size === product.size
+    );
+    if(!existsProductIdx){
+      const updatedCart = [...cart];
+      updatedCart[existsProductIdx].quantity += product.quantity; 
+      setCart(updatedCart);
+    }else{
+      setCart([...cart, product]);
+    }
   }
 
   const cartCount = cart.length;
@@ -26,7 +37,6 @@ const App = () => {
           {
             products.map(product => (
               <ProductCard key={product.id} product={product} addToCart={addToCart} />))
-
           }
           <div className="row">
             <div className="col-12 d-flex align-items-center justify-content-center mt-5">
@@ -64,7 +74,7 @@ const App = () => {
                           <td>{item.color}</td>
                           <td className="fw-bold text-tblack">{item.size}</td>
                           <td className="fw-bold text-tblack ct-qty">{item.quantity}</td>
-                          <td className="fw-bold text-tblack">${item.price}</td>
+                          <td className="fw-bold text-tblack">${item.price.toFixed(2)}</td>
                       </tr>
                     ))}
                   </tbody>

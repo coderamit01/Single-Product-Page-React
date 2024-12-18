@@ -19,9 +19,9 @@ const ProductDetails = ({ product }) => {
           <span className="review-text text-small">({reviews.totalReviews} Reviews)</span>
         </div>
       </div>
-      <div className="price">
-        <span className="main-price text-gray">${pricing.originalPrice}</span>
-        <span className="discount-price fw-bold">${pricing.currentPrice}</span>
+      <div className="price d-flex align-items-center gap-1">
+        <span className="main-price text-gray">${pricing.originalPrice.toFixed(2)} </span>
+        <span className="discount-price fw-bold">${pricing.currentPrice.toFixed(2)}</span>
       </div>
       <p className="short-des text-gray">{description}</p>
       <div className="d-flex align-items-center gap-4 w-100">

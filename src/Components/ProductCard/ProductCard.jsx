@@ -46,12 +46,6 @@ const ProductCard = ({product,addToCart}) => {
       size: selectedSize.size,
       quantity: qty,
     };
-  
-    // const currentCart = JSON.parse(localStorage.getItem('cart')) || [];
-  
-    // currentCart.push(cartItem);
-  
-    // localStorage.setItem('cart', JSON.stringify(currentCart));
     addToCart(cartItem); 
   };
   

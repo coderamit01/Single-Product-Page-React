@@ -21,7 +21,7 @@ const ProductVariableSize = ({ pSize, onSizeSelect, sizeErr, selectedSize }) => 
             />
              <div className="d-flex align-items-center gap-1">
                 <span className="fw-bold">{bSize.size}</span>
-                <span>$<span>{bSize.price}</span></span>
+                <span>$<span>{bSize.price.toFixed(2)}</span></span>
               </div>
           </label>
         ))}
